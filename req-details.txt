@@ -1,0 +1,42 @@
+FastAPI and ASGI server
+
+pip install fastapi
+pip install "uvicorn[standard]"
+
+fastapi==0.110.1
+uvicorn==0.29.0
+starlette==0.37.2
+pydantic==2.6.4
+pydantic_core==2.16.3
+
+Installing collected packages: annotated-types, anyio, click, colorama, 
+fastapi, h11, httptools, idna, pydantic, pydantic-core, python-dotenv, 
+PyYAML, sniffio, starlette, typing-extensions, uvicorn, watchfiles, websockets
+
+# --------------------------------------------------------------------------- #
+
+# Environs
+
+pip install environs
+
+environs==11.0.0
+
+Installing collected packages: environs, marshmallow, packaging
+
+# --------------------------------------------------------------------------- #
+
+# Transformers
+
+pip install transformers
+
+transformers==4.39.3
+huggingface-hub==0.22.2
+numpy-1.26.4
+requests-2.31.0
+tokenizers-0.15.2
+
+Installing collected packages: urllib3, tqdm, safetensors, regex, numpy, 
+fsspec, filelock, charset-normalizer, certifi, requests, huggingface-hub, 
+tokenizers, transformers
+
+# --------------------------------------------------------------------------- #
